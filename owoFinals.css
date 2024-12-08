@@ -1,0 +1,95 @@
+body
+{
+ 	background-color: #0066b1; 
+	color: white;	font-family: Arial, sans-serif;
+}
+/*HEADER NAV*/
+.hdr
+{
+	display: flex; 				background: goldenrod;
+	padding: 10px 20px; 		align-items: center; 
+	border-radius: 10px;		font-family: Lucida Handwriting, sans-serif;		
+}
+.head, .headCU
+{text-decoration: none; color: inherit;}
+.headCU
+{
+	margin-left: auto; 			padding: 10px; 
+	color: white;				border-radius: 5px;
+	background-color: goldenrod; 
+}
+.head:hover , .headCU:hover /*HOVER HEADER*/
+{text-decoration: none; color: gold;}
+
+/*CLOCK*/
+#clock
+{
+	font-size: 25px; 			padding: 20px;
+    border: 5px solid white;	border-radius: 10px;
+    text-align: center;			font-family: 'Orbitron', monospace;
+    background-color: #3a3f47;	border-color: #0066b1; color: limegreen;
+}
+
+/*CONTAINERS*/
+.contn
+{
+	background-color: yellow; 	display: inline-flex;
+	text-align: center; 		padding: 10px;
+	border-radius: 15px; 		margin-bottom: 10px;
+	border-top: 5px;			color: white; 
+	margin-left: auto;			object-fit: cover;
+	user-select: none;
+}
+.contnbg1
+{
+	background-color: darkblue; display: inline-flex;
+	text-align: center; 		padding: 10px;
+	border-radius: 15px; 		flex-direction: column;
+	border-top: 5px;			color: white; 
+	margin-bottom: 15px;		margin-left: auto;	
+}
+.contnbg2
+{
+	background-color: white; 	display: inline-flex;	
+	padding: 10px;				text-align: justify;
+	color: black;				border-radius: 15px;
+}
+.contnbg2 p
+{font-family: "Helvetica", Times, serif; font-size: 20px}
+.cursive
+{color: inherit; font-family: 'Brush Script MT', cursive; font-size: 50px;}
+
+/*IMAGE*/
+.fixed-img
+{
+    width: 630px;  				height: 300px; 
+    object-fit: cover; 			pointer-events: none;
+}
+img
+{user-select: none;}
+
+
+/*FOOTER*/
+footer
+{
+	display: flex; 				justify-content: space-between;
+	align-items: center; 		padding: 15px;
+	margin-top: auto; 			border-radius: 15px;
+}
+.foot
+{
+	display: flex; 				background: goldenrod;
+	padding: 10px 20px; 		align-items: center; 
+}
+.feet, .feetCU
+{
+	text-decoration: none; 		font-family: Lucida Handwriting, sans-serif;
+	color: inherit; 			padding: 10px; font-size: 15px;
+}
+.feetCU
+{
+	margin-left: auto;
+	color: white; 				padding: 10px;
+}
+.feet:hover, .feetCU:hover /*FOOTER HEADER*/
+{text-decoration: none; background: gold;}
